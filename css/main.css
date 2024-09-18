@@ -99,7 +99,8 @@ footer.vertical .copyright {
   border-bottom: 5px solid #ff652f;
   border-radius: 5px;
 }
-.about .about__job h2, .about .about__job h3 {
+.about .about__job h2,
+.about .about__job h3 {
   margin: 0.5rem 0;
 }
 .about .about__job h6 {
