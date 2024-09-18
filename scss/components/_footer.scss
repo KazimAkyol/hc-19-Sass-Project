@@ -1,0 +1,22 @@
+//*****************************************************
+//*   FOOTER
+//*****************************************************
+
+.link-style {
+  a {
+    padding: 0.4rem;
+    @include soft(1s);
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+.horizontal {
+  border: 2px solid red;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: flex-end;
+}
