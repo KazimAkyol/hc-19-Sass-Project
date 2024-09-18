@@ -1,0 +1,9 @@
+//!NAV
+
+.nav{
+    border: 2px solid red;
+    height: 10vh;
+    &__list{
+        text-align: right;
+    }
+}

@@ -4,4 +4,12 @@
   box-sizing: border-box;
 }
 
+.nav {
+  border: 2px solid red;
+  height: 10vh;
+}
+.nav__list {
+  text-align: right;
+}
+
 /*# sourceMappingURL=main.css.map */
