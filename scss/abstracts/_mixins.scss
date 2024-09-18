@@ -1,18 +1,20 @@
-//!mixins
+//*****************************************************
+//*   MIXINS
+//*****************************************************
 
 @mixin soft($sec) {
-    transition: all $sec;
+  transition: all $sec;
 }
 
-@mixin bgImg ($height) {
-    height: $height;
-    width: 100%;
-    background: linear-gradient(
-        to right,
-        rgba($primary-color, 0.9),
-        rgba($primary-color, 0.3)
+@mixin bgImg($height, $path) {
+  height: $height;
+  width: 100%;
+  background: linear-gradient(
+      to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.3)
     ),
-    url(../../img/model-1.jpg);
-    background-position: center;
-    background-size: cover;
+    url($path);
+  background-position: center;
+  background-size: cover;
 }
