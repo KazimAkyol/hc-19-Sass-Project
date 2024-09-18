@@ -2,8 +2,31 @@
 
 .nav{
     border: 2px solid red;
+    padding: 1rem;
     height: 10vh;
     &__list{
         text-align: right;
+        list-style-type: none;
+    }
+
+    &__item{
+        display: inline;
+        padding: 1rem;
+    }
+
+    &__link{
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+
+        &:hover{
+            color: blue;
+        }
+
+        &--active{
+            color: $secondary-color;
+        }
     }
 }
