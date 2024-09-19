@@ -1,10 +1,11 @@
-/* Error: Undefined mixin.
+/* Error: Undefined variable.
  *    ,
- * 10 |   @include bgImg(50vh, $pathname1);
- *    |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ * 18 |       rgba($primary-color, 0.9),
+ *    |            ^^^^^^^^^^^^^^
  *    '
- *   scss\pages\_about.scss 10:3  @use
- *   scss\main.scss 7:1           root stylesheet */
+ *   scss\abstracts\_mixins.scss 18:12  bgImg()
+ *   scss\pages\_about.scss 8:3         @use
+ *   scss\main.scss 7:1                 root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +15,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 10 \2502    @include bgImg(50vh, $pathname1);\d\a    \2502    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\pages\\_about.scss 10:3  @use\a   scss\\main.scss 7:1           root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 18 \2502        rgba($primary-color, 0.9),\d\a    \2502             ^^^^^^^^^^^^^^\a    \2575 \a   scss\\abstracts\\_mixins.scss 18:12  bgImg()\a   scss\\pages\\_about.scss 8:3         @use\a   scss\\main.scss 7:1                 root stylesheet";
 }

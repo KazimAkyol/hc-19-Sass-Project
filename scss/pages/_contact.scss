@@ -2,11 +2,11 @@
 //*   CONTACT PAGE
 //*****************************************************
 
-@use '../abstracts/mixins';
-@use '../abstracts/variables';
+@use "./abstracts/mixins";
+@use "./abstracts/variables";
 
 .contact-bgImg-container {
-  @include bgImg(100vh, $pathname1);
+  @include mixins.bgImg(100vh, variables.$pathname1);
 
   .nav {
     height: 40vh;
@@ -24,7 +24,7 @@
   h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
-    color: $secondary-color;
+    color: variables.$secondary-color;
   }
 
   &__list {
@@ -37,7 +37,7 @@
   }
 
   .text-secondary {
-    color: $secondary-color;
+    color: variables.$secondary-color;
   }
 }
 
