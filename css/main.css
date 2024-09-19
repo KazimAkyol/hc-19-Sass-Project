@@ -114,6 +114,44 @@ footer.vertical .copyright {
   background-position: center;
   background-size: cover;
 }
+.contact-bgImg-container .nav {
+  height: 40vh;
+}
+
+.contact {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #ff652f;
+}
+.contact__list {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.3rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.contact .text-secondary {
+  color: #ff652f;
+}
+
+footer.middle {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
 
 .home-bgImg-container {
   height: 100vh;
