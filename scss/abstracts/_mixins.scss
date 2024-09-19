@@ -2,7 +2,7 @@
 //*   MIXINS
 //*****************************************************
 
-@use '../abstracts/variables';
+@use "../abstracts/variables";
 
 @mixin soft($sec) {
   transition: all $sec;
@@ -15,8 +15,8 @@
   width: 100%;
   background: linear-gradient(
       to right,
-      rgba($primary-color, 0.9),
-      rgba($primary-color, 0.3)
+      rgba(variables.$primary-color, 0.9),
+      rgba(variables.$primary-color, 0.3)
     ),
     url($path);
   background-position: center;

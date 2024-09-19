@@ -2,8 +2,8 @@
 //*   RESPONSIVE
 //*****************************************************
 
-@use '../abstracts/mixins';
-@use '../abstracts/variables';
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
 
 @include media-xsm {
   .nav {

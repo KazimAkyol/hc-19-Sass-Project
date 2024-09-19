@@ -2,12 +2,12 @@
 //*   PROJECT PAGE
 //****************************************************
 
-@use "./abstracts/mixins";
-@use "./abstracts/variables";
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
 
 .project-bgImg-container {
   //border: 2px solid red;
-  @include bgImg(40vh, variables.$pathname6);
+  @include mixins.bgImg(40vh, variables.$pathname6);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -49,7 +49,7 @@
       left: 0;
       top: 0;
       opacity: 0;
-      @include soft(0.5s);
+      @include mixins.soft(0.5s);
     }
 
     &:hover::after {
