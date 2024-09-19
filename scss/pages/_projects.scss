@@ -2,6 +2,9 @@
 //*   PROJECT PAGE
 //****************************************************
 
+@use '../abstracts/mixins';
+@use '../abstracts/variables';
+
 .project-bgImg-container {
   //border: 2px solid red;
   @include bgImg(40vh, $pathname6);

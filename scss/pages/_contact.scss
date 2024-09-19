@@ -2,6 +2,9 @@
 //*   CONTACT PAGE
 //*****************************************************
 
+@use '../abstracts/mixins';
+@use '../abstracts/variables';
+
 .contact-bgImg-container {
   @include bgImg(100vh, $pathname1);
 

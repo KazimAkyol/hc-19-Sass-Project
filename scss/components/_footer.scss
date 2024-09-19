@@ -2,12 +2,15 @@
 //*   FOOTER
 //*****************************************************
 
+@use '../abstracts/mixins';
+@use '../abstracts/variables';
+
 .link-style {
   a {
     padding: 0.4rem;
     @include soft(1s);
     &:hover {
-      color: $secondary-color;
+      color: variables.$secondary-color;
     }
   }
 }
