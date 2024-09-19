@@ -20,7 +20,7 @@ body {
   background-color: variables.$primary-color;
   height: 100vh;
   line-height: 1;
-  color: $text-color;
+  color: variables.$text-color;
 }
 
 a {
